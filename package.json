@@ -1,0 +1,29 @@
+{
+  "name": "xxdiff",
+  "version": "0.0.1",
+  "description": "a light tooltip to diff JSON.",
+  "main": "dist/xxdiff.cjs.js",
+  "module": "dist/xxdiff.esm.js",
+  "browser": "dist/xxdiff.umd.js",
+  "maintainers": [
+    {
+      "name": "NikFranki",
+      "email": "8024ldbryant@gmail.com"
+    }
+  ],
+  "devDependencies": {
+    "rollup": "^1.29.0"
+  },
+  "scripts": {
+    "build": "rm -rf dist && rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NikFranki/xxdiff"
+  }
+}
