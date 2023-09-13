@@ -1,6 +1,6 @@
 {
   "name": "xxdiff",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a light tooltip to diff JSON.",
   "main": "dist/xxdiff.cjs.js",
   "module": "dist/xxdiff.esm.js",
@@ -11,9 +11,6 @@
       "email": "8024ldbryant@gmail.com"
     }
   ],
-  "devDependencies": {
-    "rollup": "^1.29.0"
-  },
   "scripts": {
     "build": "rm -rf dist && rollup -c",
     "dev": "rollup -c -w"
@@ -25,5 +22,16 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/NikFranki/xxdiff"
+  },
+  "keywords": [
+    "diff",
+    "JSON",
+    "light",
+    "fast",
+    "simple",
+    "scalable"
+  ],
+  "devDependencies": {
+    "rollup": "^1.29.0"
   }
 }

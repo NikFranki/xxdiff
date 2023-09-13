@@ -50,11 +50,9 @@ function areBothObjectTypeArray(arr1, arr2) {
 }
 
 function isOneOfArray(arr1, arr2) {
-  Array.isArray(arr1) || Array.isArray(arr2);
 }
 
 function isOneOfObject(arr1, arr2) {
-  Array.isArray(arr1) || Array.isArray(arr2);
 }
 
 function addArrayUniqueKey(obj, uk) {
@@ -406,9 +404,11 @@ function xxdiff(obj1, obj2) {
   };
 }
 
-export default {
+var index = {
   traverseParseValue,
   initConfig,
   addArrayUniqueKey,
   xxdiff,
 };
+
+export default index;

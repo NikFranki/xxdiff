@@ -10,15 +10,6 @@ Support
 4. [x] diff complex object
 5. [x] diff complex array
 
-Keywords
-
-- diff
-- JSON
-- light
-- fast
-- simple
-- compatable
-
 Display
 
 ```js
@@ -26,7 +17,7 @@ Display
 const xxdiff = require("xxdiff");
 xxdiff.xxdiff({ a: 1, c: 1, e: [{a: 1}] }, { a: 2, d: 1, e: [{b: 1}] })
 
-// result
+// diff result
 {
   "before": {
     "a": 1,
