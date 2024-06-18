@@ -4,8 +4,15 @@ npm-debug.log*
 # Dependency directories
 node_modules/
 
+dist/
+dts/
+esm/
+lib/
+
 # Optional npm cache directory
 .npm
 
 # TernJS port file
 .DS_Store
+
+coverage/
